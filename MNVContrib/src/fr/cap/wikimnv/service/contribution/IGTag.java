@@ -3,15 +3,8 @@ package fr.cap.wikimnv.service.contribution;
 import java.util.Set;
 
 import fr.cap.wikimnv.domain.pojo.Tag;
+import fr.cap.wikimnv.service.global.ICRUD;
 
-public interface IGTag {
-	void creer(Tag tag);
-
-	Tag modifier(Tag tag);
-
-	Tag lire(Tag tag);
-
-	Set<Tag> lister();
-
-	void supprimer(Tag tag);
+public interface IGTag extends ICRUD {
+	
 }
