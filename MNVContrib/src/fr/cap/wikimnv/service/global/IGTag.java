@@ -9,7 +9,7 @@ import fr.cap.wikimnv.domaine.pojo.Tag;
 public interface IGTag{
 void creer (Tag tag);
 Tag modifier(Tag tag);
-Tag lire(Object id);
+Tag lire(Tag tag);
 Set<Tag> lister();
-void supprimer(Object id);
+void supprimer(Tag tag);
 }
