@@ -3,7 +3,7 @@ package fr.cap.wikimnv.contribution.service.impl;
 import java.util.Set;
 
 import fr.cap.wikimnv.contribution.service.IGTag;
-import fr.cap.wikimnv.global.service.CrudImpl;
+import fr.cap.wikimnv.global.service.impl.CrudImpl;
 
 public class GTagImpl extends CrudImpl implements IGTag {
 
