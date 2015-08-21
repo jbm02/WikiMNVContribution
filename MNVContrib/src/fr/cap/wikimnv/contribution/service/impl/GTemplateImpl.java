@@ -1,8 +1,8 @@
 package fr.cap.wikimnv.contribution.service.impl;
 
 import fr.cap.wikimnv.contribution.service.IGTemplate;
-import fr.cap.wikimnv.domain.pojo.Template;
 import fr.cap.wikimnv.exception.MNVException;
+import fr.cap.wikimnv.global.domain.pojo.Template;
 import fr.cap.wikimnv.global.service.impl.CrudImpl;
 
 

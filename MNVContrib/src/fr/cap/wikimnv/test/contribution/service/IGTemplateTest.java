@@ -6,8 +6,8 @@ import org.junit.Test;
 
 import fr.cap.wikimnv.contribution.service.IGTemplate;
 import fr.cap.wikimnv.contribution.service.impl.GTemplateImpl;
-import fr.cap.wikimnv.domain.pojo.Template;
 import fr.cap.wikimnv.exception.MNVException;
+import fr.cap.wikimnv.global.domain.pojo.Template;
 
 public class IGTemplateTest {
 	IGTemplate gtemplate=new GTemplateImpl();

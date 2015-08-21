@@ -1,7 +1,7 @@
 package fr.cap.wikimnv.contribution.service;
 
-import fr.cap.wikimnv.domain.pojo.Template;
 import fr.cap.wikimnv.exception.MNVException;
+import fr.cap.wikimnv.global.domain.pojo.Template;
 import fr.cap.wikimnv.global.service.ICRUD;
 import fr.cap.wikimnv.global.service.ICRUDGeneric;
 
