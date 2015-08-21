@@ -2,11 +2,12 @@ package fr.cap.wikimnv.contribution.service;
 
 import java.util.Set;
 
-import fr.cap.wikimnv.domain.pojo.Tag;
-import fr.cap.wikimnv.global.service.ICRUD;
+import fr.cap.wikimnv.exception.MNVException;
+import fr.cap.wikimnv.global.domain.pojo.Tag;
+import fr.cap.wikimnv.global.service.ICRUDGeneric;
 
 
-public interface IGTag extends ICRUD{
+public interface IGTag extends ICRUDGeneric{
 	
 	/**
 	 * Liste les tags contenant le texte sélectionné.
@@ -14,6 +15,6 @@ public interface IGTag extends ICRUD{
 	 * @param libelle
 	 * @return
 	 */
-	Set<Tag> rechercheTextuelle(String libelle);
+	Set<Tag> rechercheTextuelle(String libelle) throws MNVException;
 }
 
