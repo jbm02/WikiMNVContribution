@@ -3,37 +3,31 @@ package fr.cap.wikimnv.contribution.service.impl;
 import java.util.Set;
 
 import fr.cap.wikimnv.contribution.service.IGTag;
-import fr.cap.wikimnv.domain.pojo.Query;
-import fr.cap.wikimnv.domain.pojo.Tag;
-import fr.cap.wikimnv.global.service.ICRUD;
 import fr.cap.wikimnv.global.service.impl.CrudImpl;
 
+public class GTagImpl extends CrudImpl implements IGTag {
 
-public class GTagImpl implements IGTag {
-	ICRUD crud = new CrudImpl();
-	
 	@Override
-	public Set<?> lister(Class cls) {
-		return crud.lister(Tag.class);
+	public Set<?> lister(Class cl) {
+		// TODO Auto-generated method stub
+		return null;
 	}
 
 	@Override
-	public Object lire(Object obj, Class cls) {
-		return crud.lire(obj, Tag.class);
+	public Object lire(Object obj) {
+		// TODO Auto-generated method stub
+		return null;
 	}
 
 	@Override
 	public Object supprimer(Object obj) {
-		return crud.supprimer(obj);
+		// TODO Auto-generated method stub
+		return null;
 	}
 
 	@Override
 	public Object sauver(Object obj) {
-		return crud.sauver(obj);
-	}
-
-	@Override
-	public Set<Tag> rechercheTextuelle(String libelle) {
+		// TODO Auto-generated method stub
 		return null;
 	}
 
