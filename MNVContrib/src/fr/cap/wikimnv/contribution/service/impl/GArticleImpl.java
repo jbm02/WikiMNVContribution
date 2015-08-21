@@ -34,6 +34,7 @@ ICRUD crud =new CrudImplBouchon();
 	public Object sauver(Object idArticle) throws MNVException {
 		// TODO Auto-generated method stub
 		return crud.sauver(idArticle);
+	// passer l'id  et le type
 	}
 	public Object lire(Object idArticle, Class cls) throws MNVException {
 		return crud.lire(idArticle, Article.class);
