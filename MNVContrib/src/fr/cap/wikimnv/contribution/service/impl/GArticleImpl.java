@@ -36,9 +36,9 @@ ICRUD crud =new CrudImplBouchon();
 		return crud.sauver(idArticle);
 	}
 	public Object lire(Object idArticle, Class cls) throws MNVException {
-		crud.lire(idArticle, Article.class);
+		return crud.lire(idArticle, Article.class);
 		// TODO Auto-generated method stub
-		return null;
+
 	}
 	
 }
