@@ -5,37 +5,40 @@ import java.util.Set;
 import fr.cap.wikimnv.contribution.service.IGArticle;
 import fr.cap.wikimnv.domain.pojo.Article;
 import fr.cap.wikimnv.domain.pojo.EtatPublication;
+import fr.cap.wikimnv.exception.MNVException;
 import fr.cap.wikimnv.global.service.ICRUD;
-import fr.cap.wikimnv.global.service.impl.CrudImpl;
+import fr.cap.wikimnv.global.service.impl.CrudImplBouchon;
 
 
 public class GArticleImpl implements IGArticle{
-ICRUD crud =new CrudImpl();
-	public void changerEtat (EtatPublication etat, Object key){
-		Article article=(Article)lire(key);
-		article.setEtat(etat);
-		sauver(article);
-		
+ICRUD crud =new CrudImplBouchon();
+	
+	public void changerEtat (EtatPublication etatPublication, Object idArticle) throws MNVException{
+		Article article=(Article)crud.lire(idArticle,Article.class);
+		article.setEtat(etatPublication);	
 	}
-	@Override
-	public Set<?> lister(Class cl) {
+	public Set<?> lister(Class cl) throws MNVException {
 		// TODO Auto-generated method stub
 		return crud.lister(cl);
 	}
-	@Override
-	public Object lire(Object obj) {
+	/**
+	 * @param idArticle
+	 * @throws MNVException 
+	 */
+	
+	public Object supprimer(Object idArticle) throws MNVException{
 		// TODO Auto-generated method stub
-		return crud.lire(obj);
+		return crud.supprimer(idArticle);
 	}
-	@Override
-	public Object supprimer(Object obj) {
+	
+	public Object sauver(Object idArticle) throws MNVException {
 		// TODO Auto-generated method stub
-		return crud.sauver(obj);
+		return crud.sauver(idArticle);
 	}
-	@Override
-	public Object sauver(Object obj) {
+	public Object lire(Object idArticle, Class cls) throws MNVException {
+		crud.lire(idArticle, Article.class);
 		// TODO Auto-generated method stub
 		return null;
 	}
-
+	
 }

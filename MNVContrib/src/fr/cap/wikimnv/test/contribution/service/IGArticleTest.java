@@ -1,41 +1,78 @@
 package fr.cap.wikimnv.test.contribution.service;
 
-import static org.junit.Assert.*;
+import static org.junit.Assert.fail;
 
 import org.junit.Test;
 
 import fr.cap.wikimnv.contribution.service.IGArticle;
 import fr.cap.wikimnv.contribution.service.impl.GArticleImpl;
 import fr.cap.wikimnv.domain.pojo.Article;
-import fr.cap.wikimnv.domain.pojo.Profil;
+import fr.cap.wikimnv.domain.pojo.EtatPublication;
+import fr.cap.wikimnv.exception.MNVException;
 
 public class IGArticleTest {
 	IGArticle gArticle =new GArticleImpl();
-	Article article = new Article(new Profil(), null);
+	Article article;
 	@Test
 	public void testChangerEtat() {
-		fail("Not yet implemented");
+		try{
+			EtatPublication etatPublication=EtatPublication.PUBLIE;
+			Object idArticle="1";
+			gArticle.changerEtat(etatPublication, idArticle);
+		}
+		catch(MNVException e){
+			fail(e.getMessage());	
+		}
 	}
 
 	@Test
 	public void testLister() {
-		fail("Not yet implemented");
+	
+		try{
+		
+			gArticle.lister(getClass());
+		}
+		catch(MNVException e){
+			fail(e.getMessage());	
+		}
+		
 	}
 
 	@Test
 	public void testLire() {
-		fail("Not yet implemented");
+try{
+			
+			Object idArticle="1";
+			gArticle.supprimer(idArticle);
+		}
+		catch(MNVException e){
+			fail(e.getMessage());
+		}
 	}
 
 	@Test
 	public void testSupprimer() {
-		fail("Not yet implemented");
+		try{
+			
+			Object idArticle="1";
+			gArticle.supprimer(idArticle);
+		}
+		catch(MNVException e){
+			fail(e.getMessage());
+		}
 	}
 
 	@Test
 	public void testSauver() {
-		
-		gArticle.sauver(article);
+try{
+			
+			Object idArticle="1";
+			gArticle.supprimer(idArticle);
+		}
+		catch(MNVException e){
+			fail(e.getMessage());
+		}	
+	
 	}
 
 }
