@@ -2,7 +2,7 @@ package fr.cap.wikimnv.contribution.service.impl;
 
 import java.util.Set;
 
-import fr.cap.wikimnv.contribution.service.IGArticle;
+import fr.cap.wikimnv.contribution.service.IServiceArticle;
 import fr.cap.wikimnv.exception.MNVException;
 import fr.cap.wikimnv.global.domain.pojo.Article;
 import fr.cap.wikimnv.global.domain.pojo.EtatPublication;
@@ -10,7 +10,7 @@ import fr.cap.wikimnv.global.service.ICRUD;
 import fr.cap.wikimnv.global.service.impl.CrudImplBouchon;
 
 
-public class GArticleImpl implements IGArticle{
+public class ServiceArticleImpl implements IServiceArticle{
 ICRUD crud =new CrudImplBouchon();
 	
 	public void changerEtat (EtatPublication etatPublication, Object idArticle) throws MNVException{

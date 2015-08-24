@@ -4,14 +4,14 @@ import static org.junit.Assert.fail;
 
 import org.junit.Test;
 
-import fr.cap.wikimnv.contribution.service.IGArticle;
-import fr.cap.wikimnv.contribution.service.impl.GArticleImpl;
+import fr.cap.wikimnv.contribution.service.IServiceArticle;
+import fr.cap.wikimnv.contribution.service.impl.ServiceArticleImpl;
 import fr.cap.wikimnv.exception.MNVException;
 import fr.cap.wikimnv.global.domain.pojo.Article;
 import fr.cap.wikimnv.global.domain.pojo.EtatPublication;
 
-public class IGArticleTest {
-	IGArticle gArticle =new GArticleImpl();
+public class IServiceArticleTest {
+	IServiceArticle gArticle =new ServiceArticleImpl();
 	Article article;
 	@Test
 	public void testChangerEtat() {

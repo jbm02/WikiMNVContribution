@@ -6,7 +6,7 @@ import fr.cap.wikimnv.global.service.ICRUD;
 import fr.cap.wikimnv.global.service.ICRUDGeneric;
 
 
-public interface IGTemplate extends ICRUDGeneric {
+public interface IServiceTemplate extends ICRUDGeneric {
 	/**
 	 * elle permet d'ajouter une metadonnee à mon template
 	 * @param template

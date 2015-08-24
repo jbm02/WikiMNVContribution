@@ -7,14 +7,14 @@ import java.util.Set;
 
 import org.junit.Test;
 
-import fr.cap.wikimnv.contribution.service.IGTag;
-import fr.cap.wikimnv.contribution.service.impl.GTagImpl;
+import fr.cap.wikimnv.contribution.service.IServiceTag;
+import fr.cap.wikimnv.contribution.service.impl.ServiceTagImpl;
 import fr.cap.wikimnv.exception.MNVException;
 import fr.cap.wikimnv.global.domain.pojo.Tag;
 
-public class IGTagTest {
+public class IServiceTagTest {
 	
-	IGTag gtag = new GTagImpl();
+	IServiceTag gtag = new ServiceTagImpl();
 	String libelle = "test";
 	Set<Tag> listetag = new HashSet<Tag>();
 	@Test

@@ -1,12 +1,12 @@
 package fr.cap.wikimnv.contribution.service.impl;
 
-import fr.cap.wikimnv.contribution.service.IGTemplate;
+import fr.cap.wikimnv.contribution.service.IServiceTemplate;
 import fr.cap.wikimnv.exception.MNVException;
 import fr.cap.wikimnv.global.domain.pojo.Template;
 import fr.cap.wikimnv.global.service.impl.CrudImpl;
 
 
-public class GTemplateImpl extends CrudImpl implements IGTemplate {
+public class ServiceTemplateImpl extends CrudImpl implements IServiceTemplate {
 	
 	
 	@Override

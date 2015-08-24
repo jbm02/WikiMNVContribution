@@ -4,14 +4,14 @@ import java.util.HashMap;
 import java.util.Map;
 import java.util.Set;
 
-import fr.cap.wikimnv.contribution.service.IGTag;
+import fr.cap.wikimnv.contribution.service.IServiceTag;
 import fr.cap.wikimnv.exception.MNVException;
 import fr.cap.wikimnv.global.domain.pojo.Query;
 import fr.cap.wikimnv.global.domain.pojo.Tag;
 import fr.cap.wikimnv.global.service.ICRUD;
 import fr.cap.wikimnv.global.service.impl.CrudImplBouchon;
 
-public class GTagImpl implements IGTag {
+public class ServiceTagImpl implements IServiceTag {
 
 	ICRUD crud = new CrudImplBouchon();
 	

@@ -7,7 +7,7 @@ import fr.cap.wikimnv.global.domain.pojo.Tag;
 import fr.cap.wikimnv.global.service.ICRUDGeneric;
 
 
-public interface IGTag extends ICRUDGeneric{
+public interface IServiceTag extends ICRUDGeneric{
 	
 	/**
 	 * Liste les tags contenant le texte sélectionné.

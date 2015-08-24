@@ -6,7 +6,7 @@ import fr.cap.wikimnv.exception.MNVException;
 import fr.cap.wikimnv.global.domain.pojo.EtatPublication;
 import fr.cap.wikimnv.global.service.ICRUDGeneric;
 
-public interface IGArticle extends ICRUDGeneric {
+public interface IServiceArticle extends ICRUDGeneric {
 	/**
 	 * elle permet de changer l'etat de mon article
 	 * les états possible :<br/>
