@@ -6,9 +6,9 @@ import org.junit.Test;
 
 import fr.cap.wikimnv.contribution.service.IGArticle;
 import fr.cap.wikimnv.contribution.service.impl.GArticleImpl;
-import fr.cap.wikimnv.domain.pojo.Article;
-import fr.cap.wikimnv.domain.pojo.EtatPublication;
 import fr.cap.wikimnv.exception.MNVException;
+import fr.cap.wikimnv.global.domain.pojo.Article;
+import fr.cap.wikimnv.global.domain.pojo.EtatPublication;
 
 public class IGArticleTest {
 	IGArticle gArticle =new GArticleImpl();
