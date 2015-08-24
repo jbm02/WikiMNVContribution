@@ -2,7 +2,7 @@ package fr.cap.wikimnv.contribution.service;
 
 import fr.cap.wikimnv.exception.MNVException;
 
-public interface IContribution {
+public interface IServiceContribution {
 	IServiceArticle getGArticle() throws MNVException;
 
 	IServiceTag getGTag() throws MNVException;

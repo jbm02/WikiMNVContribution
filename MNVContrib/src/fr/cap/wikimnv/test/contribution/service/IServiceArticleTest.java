@@ -3,6 +3,7 @@ package fr.cap.wikimnv.test.contribution.service;
 import static org.junit.Assert.fail;
 
 import org.junit.Test;
+import org.springframework.context.support.ClassPathXmlApplicationContext;
 
 import fr.cap.wikimnv.contribution.service.IServiceArticle;
 import fr.cap.wikimnv.contribution.service.impl.ServiceArticleImpl;
@@ -11,14 +12,19 @@ import fr.cap.wikimnv.global.domain.pojo.Article;
 import fr.cap.wikimnv.global.domain.pojo.EtatPublication;
 
 public class IServiceArticleTest {
-	IServiceArticle gArticle =new ServiceArticleImpl();
+	IServiceArticle serviceArticle;
 	Article article;
+	
+	public IServiceArticleTest() {
+		serviceArticle = (IServiceArticle) new ClassPathXmlApplicationContext("applicationContext.xml").getBean("sArticle");
+	}
+	
 	@Test
 	public void testChangerEtat() {
 		try{
 			EtatPublication etatPublication=EtatPublication.PUBLIE;
 			Object idArticle="1";
-			gArticle.changerEtat(etatPublication, idArticle);
+			serviceArticle.changerEtat(etatPublication, idArticle);
 		}
 		catch(MNVException e){
 			fail(e.getMessage());	
@@ -30,7 +36,7 @@ public class IServiceArticleTest {
 	
 		try{
 		
-			gArticle.lister(getClass());
+			serviceArticle.lister(getClass());
 		}
 		catch(MNVException e){
 			fail(e.getMessage());	
@@ -43,7 +49,7 @@ public class IServiceArticleTest {
 try{
 			
 			Object idArticle="1";
-			gArticle.supprimer(idArticle);
+			serviceArticle.lire(idArticle, Article.class);
 		}
 		catch(MNVException e){
 			fail(e.getMessage());
@@ -55,7 +61,7 @@ try{
 		try{
 			
 			Object idArticle="1";
-			gArticle.supprimer(idArticle);
+			serviceArticle.supprimer(idArticle);
 		}
 		catch(MNVException e){
 			fail(e.getMessage());
@@ -67,7 +73,7 @@ try{
 try{
 			
 			Object idArticle="1";
-			gArticle.supprimer(idArticle);
+			serviceArticle.supprimer(idArticle);
 		}
 		catch(MNVException e){
 			fail(e.getMessage());

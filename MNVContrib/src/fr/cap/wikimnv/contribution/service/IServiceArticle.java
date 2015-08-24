@@ -17,12 +17,5 @@ public interface IServiceArticle extends ICRUDGeneric {
 	 * @param idArticle
 	 */
 	void changerEtat (EtatPublication etatPublication, Object idArticle)throws MNVException;
-//	/**
-//	 *Permet de lister les article  :<br/>
-//	 * @throws MNVException 
-//	 */
-//	public Set<?> lister(Class cl) throws MNVException;
-//	
-//	public Object supprimer(Object idArticle) throws MNVException;
-//	public Object sauver(Object idArticle)throws MNVException;
+
 }
