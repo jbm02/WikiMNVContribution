@@ -1,9 +1,12 @@
 package fr.cap.wikimnv.contribution.service.impl;
 
+import java.util.Date;
 import java.util.HashMap;
 import java.util.Map;
 import java.util.Set;
 
+import org.slf4j.Logger;
+import org.slf4j.LoggerFactory;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 
@@ -18,6 +21,8 @@ public class ServiceTagImpl implements IServiceTag {
 	
 	@Autowired
 	ICRUD sCrud;
+	
+	Logger logger = LoggerFactory.getLogger(ServiceTagImpl.class);
 	
 	public ICRUD getsCrud() {
 		return sCrud;
@@ -49,6 +54,7 @@ public class ServiceTagImpl implements IServiceTag {
 
 	@Override
 	public Set<Tag> rechercheTextuelle(String libelle) throws MNVException {
+		logger.error("rechercheTextuelle");;
 		Map<String, Object> params = new HashMap<String, Object>();
 		params.put("pTexte", libelle);
 		return (Set<Tag>) sCrud.faireRequete(Query.TAG_RECHERCHETEXTUELLE, params);
