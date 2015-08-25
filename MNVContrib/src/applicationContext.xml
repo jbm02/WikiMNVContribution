@@ -17,14 +17,14 @@
 		<property name="sCrud" ref="serviceCrud"></property>
 	</bean>
 	
-	<bean id="sLogger" class="fr.cap.wikimnv.global.aspect.LoggerMNV"></bean>
+	<bean id="sLogger" class="fr.cap.wikimnv.contribution.aspect.LoggerMNV"></bean>
 	
 	<aop:config>
-		<aop:aspect>
-			<aop:pointcut id="perfLogger" expression="execution(* fr.cap.wikimnv.global.service.impl..*(..))"/>
+		<aop:aspect id="sLoggerAspect" ref="sLogger">
+			<aop:pointcut id="perfLogger" expression="execution(* fr.cap.wikimnv.contribution.service.impl..*(..))"/>
 			<aop:around pointcut-ref="perfLogger" method="logProcess"/>
 			
-			<aop:pointcut id="eventLogger" expression="execution(* fr.cap.wikimnv.global.service.impl..set*(..))"/>
+			<aop:pointcut id="eventLogger" expression="execution(* fr.cap.wikimnv.contribution.service.impl..set*(..))"/>
 			<aop:before pointcut-ref="eventLogger" method="logEvent"/>
 		</aop:aspect>
 	</aop:config>

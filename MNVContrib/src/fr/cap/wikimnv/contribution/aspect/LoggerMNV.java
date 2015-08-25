@@ -19,7 +19,6 @@ public class LoggerMNV {
 	
 	public Object logProcess(ProceedingJoinPoint joinPoint){
 		Object returnValue = null;
-		
 		try {
 			logger.info(Calendar.getInstance().getTimeInMillis() + " - Start " + joinPoint.getSignature().toString());
 			returnValue = joinPoint.proceed();

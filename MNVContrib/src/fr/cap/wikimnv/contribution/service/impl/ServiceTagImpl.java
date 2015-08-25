@@ -22,8 +22,6 @@ public class ServiceTagImpl implements IServiceTag {
 	@Autowired
 	ICRUD sCrud;
 	
-	Logger logger = LoggerFactory.getLogger(ServiceTagImpl.class);
-	
 	public ICRUD getsCrud() {
 		return sCrud;
 	}
@@ -54,7 +52,6 @@ public class ServiceTagImpl implements IServiceTag {
 
 	@Override
 	public Set<Tag> rechercheTextuelle(String libelle) throws MNVException {
-		logger.error("rechercheTextuelle");;
 		Map<String, Object> params = new HashMap<String, Object>();
 		params.put("pTexte", libelle);
 		return (Set<Tag>) sCrud.faireRequete(Query.TAG_RECHERCHETEXTUELLE, params);
