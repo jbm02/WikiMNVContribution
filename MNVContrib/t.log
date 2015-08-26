@@ -1,0 +1,170 @@
+Adding [systemProperties] PropertySource with lowest search precedence
+Adding [systemEnvironment] PropertySource with lowest search precedence
+Initialized StandardEnvironment with PropertySources [systemProperties,systemEnvironment]
+Refreshing org.springframework.context.support.ClassPathXmlApplicationContext@31b7dea0: startup date [Wed Aug 26 09:45:42 CEST 2015]; root of context hierarchy
+Adding [systemProperties] PropertySource with lowest search precedence
+Adding [systemEnvironment] PropertySource with lowest search precedence
+Initialized StandardEnvironment with PropertySources [systemProperties,systemEnvironment]
+Loading XML bean definitions from class path resource [applicationContext.xml]
+Using JAXP provider [com.sun.org.apache.xerces.internal.jaxp.DocumentBuilderFactoryImpl]
+Loading schema mappings from [META-INF/spring.schemas]
+Loaded schema mappings: {http://www.springframework.org/schema/cache/spring-cache-4.2.xsd=org/springframework/cache/config/spring-cache-4.2.xsd, http://www.springframework.org/schema/aop/spring-aop-4.1.xsd=org/springframework/aop/config/spring-aop-4.1.xsd, http://www.springframework.org/schema/context/spring-context-3.1.xsd=org/springframework/context/config/spring-context-3.1.xsd, http://www.springframework.org/schema/util/spring-util-3.0.xsd=org/springframework/beans/factory/xml/spring-util-3.0.xsd, http://www.springframework.org/schema/tool/spring-tool.xsd=org/springframework/beans/factory/xml/spring-tool-4.2.xsd, http://www.springframework.org/schema/aop/spring-aop-3.2.xsd=org/springframework/aop/config/spring-aop-3.2.xsd, http://www.springframework.org/schema/lang/spring-lang-4.1.xsd=org/springframework/scripting/config/spring-lang-4.1.xsd, http://www.springframework.org/schema/context/spring-context-4.0.xsd=org/springframework/context/config/spring-context-4.0.xsd, http://www.springframework.org/schema/beans/spring-beans-4.2.xsd=org/springframework/beans/factory/xml/spring-beans-4.2.xsd, http://www.springframework.org/schema/tool/spring-tool-4.1.xsd=org/springframework/beans/factory/xml/spring-tool-4.1.xsd, http://www.springframework.org/schema/lang/spring-lang-3.2.xsd=org/springframework/scripting/config/spring-lang-3.2.xsd, http://www.springframework.org/schema/cache/spring-cache-3.2.xsd=org/springframework/cache/config/spring-cache-3.2.xsd, http://www.springframework.org/schema/jee/spring-jee-4.1.xsd=org/springframework/ejb/config/spring-jee-4.1.xsd, http://www.springframework.org/schema/util/spring-util-2.0.xsd=org/springframework/beans/factory/xml/spring-util-2.0.xsd, http://www.springframework.org/schema/task/spring-task-4.2.xsd=org/springframework/scheduling/config/spring-task-4.2.xsd, http://www.springframework.org/schema/tool/spring-tool-3.2.xsd=org/springframework/beans/factory/xml/spring-tool-3.2.xsd, http://www.springframework.org/schema/context/spring-context.xsd=org/springframework/context/config/spring-context-4.2.xsd, http://www.springframework.org/schema/cache/spring-cache-4.1.xsd=org/springframework/cache/config/spring-cache-4.1.xsd, http://www.springframework.org/schema/aop/spring-aop-4.0.xsd=org/springframework/aop/config/spring-aop-4.0.xsd, http://www.springframework.org/schema/jee/spring-jee-3.2.xsd=org/springframework/ejb/config/spring-jee-3.2.xsd, http://www.springframework.org/schema/context/spring-context-3.0.xsd=org/springframework/context/config/spring-context-3.0.xsd, http://www.springframework.org/schema/util/spring-util-2.5.xsd=org/springframework/beans/factory/xml/spring-util-2.5.xsd, http://www.springframework.org/schema/beans/spring-beans-3.2.xsd=org/springframework/beans/factory/xml/spring-beans-3.2.xsd, http://www.springframework.org/schema/aop/spring-aop-3.1.xsd=org/springframework/aop/config/spring-aop-3.1.xsd, http://www.springframework.org/schema/lang/spring-lang-4.0.xsd=org/springframework/scripting/config/spring-lang-4.0.xsd, http://www.springframework.org/schema/beans/spring-beans-4.1.xsd=org/springframework/beans/factory/xml/spring-beans-4.1.xsd, http://www.springframework.org/schema/tool/spring-tool-4.0.xsd=org/springframework/beans/factory/xml/spring-tool-4.0.xsd, http://www.springframework.org/schema/lang/spring-lang-3.1.xsd=org/springframework/scripting/config/spring-lang-3.1.xsd, http://www.springframework.org/schema/cache/spring-cache-3.1.xsd=org/springframework/cache/config/spring-cache-3.1.xsd, http://www.springframework.org/schema/jee/spring-jee-4.0.xsd=org/springframework/ejb/config/spring-jee-4.0.xsd, http://www.springframework.org/schema/task/spring-task-4.1.xsd=org/springframework/scheduling/config/spring-task-4.1.xsd, http://www.springframework.org/schema/tool/spring-tool-3.1.xsd=org/springframework/beans/factory/xml/spring-tool-3.1.xsd, http://www.springframework.org/schema/cache/spring-cache-4.0.xsd=org/springframework/cache/config/spring-cache-4.0.xsd, http://www.springframework.org/schema/jee/spring-jee-3.1.xsd=org/springframework/ejb/config/spring-jee-3.1.xsd, http://www.springframework.org/schema/util/spring-util-4.2.xsd=org/springframework/beans/factory/xml/spring-util-4.2.xsd, http://www.springframework.org/schema/task/spring-task-3.2.xsd=org/springframework/scheduling/config/spring-task-3.2.xsd, http://www.springframework.org/schema/beans/spring-beans-3.1.xsd=org/springframework/beans/factory/xml/spring-beans-3.1.xsd, http://www.springframework.org/schema/util/spring-util.xsd=org/springframework/beans/factory/xml/spring-util-4.2.xsd, http://www.springframework.org/schema/aop/spring-aop-3.0.xsd=org/springframework/aop/config/spring-aop-3.0.xsd, http://www.springframework.org/schema/beans/spring-beans-4.0.xsd=org/springframework/beans/factory/xml/spring-beans-4.0.xsd, http://www.springframework.org/schema/beans/spring-beans.xsd=org/springframework/beans/factory/xml/spring-beans-4.2.xsd, http://www.springframework.org/schema/lang/spring-lang-3.0.xsd=org/springframework/scripting/config/spring-lang-3.0.xsd, http://www.springframework.org/schema/context/spring-context-2.5.xsd=org/springframework/context/config/spring-context-2.5.xsd, http://www.springframework.org/schema/task/spring-task-4.0.xsd=org/springframework/scheduling/config/spring-task-4.0.xsd, http://www.springframework.org/schema/tool/spring-tool-3.0.xsd=org/springframework/beans/factory/xml/spring-tool-3.0.xsd, http://www.springframework.org/schema/aop/spring-aop-2.0.xsd=org/springframework/aop/config/spring-aop-2.0.xsd, http://www.springframework.org/schema/jee/spring-jee-3.0.xsd=org/springframework/ejb/config/spring-jee-3.0.xsd, http://www.springframework.org/schema/util/spring-util-4.1.xsd=org/springframework/beans/factory/xml/spring-util-4.1.xsd, http://www.springframework.org/schema/task/spring-task-3.1.xsd=org/springframework/scheduling/config/spring-task-3.1.xsd, http://www.springframework.org/schema/beans/spring-beans-3.0.xsd=org/springframework/beans/factory/xml/spring-beans-3.0.xsd, http://www.springframework.org/schema/jee/spring-jee.xsd=org/springframework/ejb/config/spring-jee-4.2.xsd, http://www.springframework.org/schema/aop/spring-aop-2.5.xsd=org/springframework/aop/config/spring-aop-2.5.xsd, http://www.springframework.org/schema/lang/spring-lang-2.0.xsd=org/springframework/scripting/config/spring-lang-2.0.xsd, http://www.springframework.org/schema/util/spring-util-3.2.xsd=org/springframework/beans/factory/xml/spring-util-3.2.xsd, http://www.springframework.org/schema/task/spring-task.xsd=org/springframework/scheduling/config/spring-task-4.2.xsd, http://www.springframework.org/schema/tool/spring-tool-2.0.xsd=org/springframework/beans/factory/xml/spring-tool-2.0.xsd, http://www.springframework.org/schema/lang/spring-lang-2.5.xsd=org/springframework/scripting/config/spring-lang-2.5.xsd, http://www.springframework.org/schema/context/spring-context-4.2.xsd=org/springframework/context/config/spring-context-4.2.xsd, http://www.springframework.org/schema/jee/spring-jee-2.0.xsd=org/springframework/ejb/config/spring-jee-2.0.xsd, http://www.springframework.org/schema/tool/spring-tool-2.5.xsd=org/springframework/beans/factory/xml/spring-tool-2.5.xsd, http://www.springframework.org/schema/jee/spring-jee-2.5.xsd=org/springframework/ejb/config/spring-jee-2.5.xsd, http://www.springframework.org/schema/util/spring-util-4.0.xsd=org/springframework/beans/factory/xml/spring-util-4.0.xsd, http://www.springframework.org/schema/task/spring-task-3.0.xsd=org/springframework/scheduling/config/spring-task-3.0.xsd, http://www.springframework.org/schema/lang/spring-lang.xsd=org/springframework/scripting/config/spring-lang-4.2.xsd, http://www.springframework.org/schema/context/spring-context-3.2.xsd=org/springframework/context/config/spring-context-3.2.xsd, http://www.springframework.org/schema/util/spring-util-3.1.xsd=org/springframework/beans/factory/xml/spring-util-3.1.xsd, http://www.springframework.org/schema/beans/spring-beans-2.0.xsd=org/springframework/beans/factory/xml/spring-beans-2.0.xsd, http://www.springframework.org/schema/cache/spring-cache.xsd=org/springframework/cache/config/spring-cache-4.2.xsd, http://www.springframework.org/schema/lang/spring-lang-4.2.xsd=org/springframework/scripting/config/spring-lang-4.2.xsd, http://www.springframework.org/schema/context/spring-context-4.1.xsd=org/springframework/context/config/spring-context-4.1.xsd, http://www.springframework.org/schema/beans/spring-beans-2.5.xsd=org/springframework/beans/factory/xml/spring-beans-2.5.xsd, http://www.springframework.org/schema/tool/spring-tool-4.2.xsd=org/springframework/beans/factory/xml/spring-tool-4.2.xsd, http://www.springframework.org/schema/jee/spring-jee-4.2.xsd=org/springframework/ejb/config/spring-jee-4.2.xsd, http://www.springframework.org/schema/aop/spring-aop.xsd=org/springframework/aop/config/spring-aop-4.1.xsd}
+Found XML schema [http://www.springframework.org/schema/beans/spring-beans-4.0.xsd] in classpath: org/springframework/beans/factory/xml/spring-beans-4.0.xsd
+Found XML schema [http://www.springframework.org/schema/context/spring-context-4.0.xsd] in classpath: org/springframework/context/config/spring-context-4.0.xsd
+Found XML schema [http://www.springframework.org/schema/tool/spring-tool-4.0.xsd] in classpath: org/springframework/beans/factory/xml/spring-tool-4.0.xsd
+Found XML schema [http://www.springframework.org/schema/aop/spring-aop-4.0.xsd] in classpath: org/springframework/aop/config/spring-aop-4.0.xsd
+Loading bean definitions
+Loaded NamespaceHandler mappings: {http://www.springframework.org/schema/p=org.springframework.beans.factory.xml.SimplePropertyNamespaceHandler, http://www.springframework.org/schema/util=org.springframework.beans.factory.xml.UtilNamespaceHandler, http://www.springframework.org/schema/jee=org.springframework.ejb.config.JeeNamespaceHandler, http://www.springframework.org/schema/aop=org.springframework.aop.config.AopNamespaceHandler, http://www.springframework.org/schema/cache=org.springframework.cache.config.CacheNamespaceHandler, http://www.springframework.org/schema/c=org.springframework.beans.factory.xml.SimpleConstructorNamespaceHandler, http://www.springframework.org/schema/task=org.springframework.scheduling.config.TaskNamespaceHandler, http://www.springframework.org/schema/lang=org.springframework.scripting.config.LangNamespaceHandler, http://www.springframework.org/schema/context=org.springframework.context.config.ContextNamespaceHandler}
+Adding [systemProperties] PropertySource with lowest search precedence
+Adding [systemEnvironment] PropertySource with lowest search precedence
+Initialized StandardEnvironment with PropertySources [systemProperties,systemEnvironment]
+Looking for matching resources in directory tree [C:\Users\JB\git\WikiMNVContribution\MNVContrib\target\classes\fr\cap\wikimnv\contribution]
+Searching directory [C:\Users\JB\git\WikiMNVContribution\MNVContrib\target\classes\fr\cap\wikimnv\contribution] for files matching pattern [C:/Users/JB/git/WikiMNVContribution/MNVContrib/target/classes/fr/cap/wikimnv/contribution/**/*.class]
+Searching directory [C:\Users\JB\git\WikiMNVContribution\MNVContrib\target\classes\fr\cap\wikimnv\contribution\aspect] for files matching pattern [C:/Users/JB/git/WikiMNVContribution/MNVContrib/target/classes/fr/cap/wikimnv/contribution/**/*.class]
+Searching directory [C:\Users\JB\git\WikiMNVContribution\MNVContrib\target\classes\fr\cap\wikimnv\contribution\service] for files matching pattern [C:/Users/JB/git/WikiMNVContribution/MNVContrib/target/classes/fr/cap/wikimnv/contribution/**/*.class]
+Searching directory [C:\Users\JB\git\WikiMNVContribution\MNVContrib\target\classes\fr\cap\wikimnv\contribution\service\impl] for files matching pattern [C:/Users/JB/git/WikiMNVContribution/MNVContrib/target/classes/fr/cap/wikimnv/contribution/**/*.class]
+Resolved location pattern [classpath*:fr/cap/wikimnv/contribution/**/*.class] to resources [file [C:\Users\JB\git\WikiMNVContribution\MNVContrib\target\classes\fr\cap\wikimnv\contribution\aspect\LoggerMNV.class], file [C:\Users\JB\git\WikiMNVContribution\MNVContrib\target\classes\fr\cap\wikimnv\contribution\service\impl\ServiceArticleImpl.class], file [C:\Users\JB\git\WikiMNVContribution\MNVContrib\target\classes\fr\cap\wikimnv\contribution\service\impl\ServiceTagImpl.class], file [C:\Users\JB\git\WikiMNVContribution\MNVContrib\target\classes\fr\cap\wikimnv\contribution\service\impl\ServiceTemplateImpl.class], file [C:\Users\JB\git\WikiMNVContribution\MNVContrib\target\classes\fr\cap\wikimnv\contribution\service\IServiceArticle.class], file [C:\Users\JB\git\WikiMNVContribution\MNVContrib\target\classes\fr\cap\wikimnv\contribution\service\IServiceContribution.class], file [C:\Users\JB\git\WikiMNVContribution\MNVContrib\target\classes\fr\cap\wikimnv\contribution\service\IServiceTag.class], file [C:\Users\JB\git\WikiMNVContribution\MNVContrib\target\classes\fr\cap\wikimnv\contribution\service\IServiceTemplate.class]]
+Identified candidate component class: file [C:\Users\JB\git\WikiMNVContribution\MNVContrib\target\classes\fr\cap\wikimnv\contribution\service\impl\ServiceTagImpl.class]
+Loaded 15 bean definitions from location pattern [applicationContext.xml]
+Bean factory for org.springframework.context.support.ClassPathXmlApplicationContext@31b7dea0: org.springframework.beans.factory.support.DefaultListableBeanFactory@1da51a35: defining beans [sTag,org.springframework.context.annotation.internalConfigurationAnnotationProcessor,org.springframework.context.annotation.internalAutowiredAnnotationProcessor,org.springframework.context.annotation.internalRequiredAnnotationProcessor,org.springframework.context.annotation.internalCommonAnnotationProcessor,org.springframework.context.event.internalEventListenerProcessor,org.springframework.context.event.internalEventListenerFactory,serviceCrud,sArticle,sLogger,org.springframework.aop.config.internalAutoProxyCreator,org.springframework.aop.aspectj.AspectJPointcutAdvisor#0,org.springframework.aop.aspectj.AspectJPointcutAdvisor#1,perfLogger,eventLogger]; root of factory hierarchy
+Creating shared instance of singleton bean 'org.springframework.context.annotation.internalConfigurationAnnotationProcessor'
+Creating instance of bean 'org.springframework.context.annotation.internalConfigurationAnnotationProcessor'
+Eagerly caching bean 'org.springframework.context.annotation.internalConfigurationAnnotationProcessor' to allow for resolving potential circular references
+Finished creating instance of bean 'org.springframework.context.annotation.internalConfigurationAnnotationProcessor'
+Creating shared instance of singleton bean 'org.springframework.context.annotation.internalAutowiredAnnotationProcessor'
+Creating instance of bean 'org.springframework.context.annotation.internalAutowiredAnnotationProcessor'
+Eagerly caching bean 'org.springframework.context.annotation.internalAutowiredAnnotationProcessor' to allow for resolving potential circular references
+Finished creating instance of bean 'org.springframework.context.annotation.internalAutowiredAnnotationProcessor'
+Creating shared instance of singleton bean 'org.springframework.context.annotation.internalRequiredAnnotationProcessor'
+Creating instance of bean 'org.springframework.context.annotation.internalRequiredAnnotationProcessor'
+Eagerly caching bean 'org.springframework.context.annotation.internalRequiredAnnotationProcessor' to allow for resolving potential circular references
+Finished creating instance of bean 'org.springframework.context.annotation.internalRequiredAnnotationProcessor'
+Creating shared instance of singleton bean 'org.springframework.context.annotation.internalCommonAnnotationProcessor'
+Creating instance of bean 'org.springframework.context.annotation.internalCommonAnnotationProcessor'
+Eagerly caching bean 'org.springframework.context.annotation.internalCommonAnnotationProcessor' to allow for resolving potential circular references
+Finished creating instance of bean 'org.springframework.context.annotation.internalCommonAnnotationProcessor'
+Creating shared instance of singleton bean 'org.springframework.context.annotation.ConfigurationClassPostProcessor.importAwareProcessor'
+Creating instance of bean 'org.springframework.context.annotation.ConfigurationClassPostProcessor.importAwareProcessor'
+Eagerly caching bean 'org.springframework.context.annotation.ConfigurationClassPostProcessor.importAwareProcessor' to allow for resolving potential circular references
+Finished creating instance of bean 'org.springframework.context.annotation.ConfigurationClassPostProcessor.importAwareProcessor'
+Creating shared instance of singleton bean 'org.springframework.context.annotation.ConfigurationClassPostProcessor.enhancedConfigurationProcessor'
+Creating instance of bean 'org.springframework.context.annotation.ConfigurationClassPostProcessor.enhancedConfigurationProcessor'
+Eagerly caching bean 'org.springframework.context.annotation.ConfigurationClassPostProcessor.enhancedConfigurationProcessor' to allow for resolving potential circular references
+Finished creating instance of bean 'org.springframework.context.annotation.ConfigurationClassPostProcessor.enhancedConfigurationProcessor'
+Creating shared instance of singleton bean 'org.springframework.aop.config.internalAutoProxyCreator'
+Creating instance of bean 'org.springframework.aop.config.internalAutoProxyCreator'
+Eagerly caching bean 'org.springframework.aop.config.internalAutoProxyCreator' to allow for resolving potential circular references
+Finished creating instance of bean 'org.springframework.aop.config.internalAutoProxyCreator'
+Unable to locate MessageSource with name 'messageSource': using default [org.springframework.context.support.DelegatingMessageSource@147ed70f]
+Unable to locate ApplicationEventMulticaster with name 'applicationEventMulticaster': using default [org.springframework.context.event.SimpleApplicationEventMulticaster@229d10bd]
+Pre-instantiating singletons in org.springframework.beans.factory.support.DefaultListableBeanFactory@1da51a35: defining beans [sTag,org.springframework.context.annotation.internalConfigurationAnnotationProcessor,org.springframework.context.annotation.internalAutowiredAnnotationProcessor,org.springframework.context.annotation.internalRequiredAnnotationProcessor,org.springframework.context.annotation.internalCommonAnnotationProcessor,org.springframework.context.event.internalEventListenerProcessor,org.springframework.context.event.internalEventListenerFactory,serviceCrud,sArticle,sLogger,org.springframework.aop.config.internalAutoProxyCreator,org.springframework.aop.aspectj.AspectJPointcutAdvisor#0,org.springframework.aop.aspectj.AspectJPointcutAdvisor#1,perfLogger,eventLogger,org.springframework.context.annotation.ConfigurationClassPostProcessor.importAwareProcessor,org.springframework.context.annotation.ConfigurationClassPostProcessor.enhancedConfigurationProcessor]; root of factory hierarchy
+Creating shared instance of singleton bean 'sTag'
+Creating instance of bean 'sTag'
+Creating shared instance of singleton bean 'org.springframework.aop.aspectj.AspectJPointcutAdvisor#0'
+Creating instance of bean 'org.springframework.aop.aspectj.AspectJPointcutAdvisor#0'
+Creating instance of bean '(inner bean)#25d250c6'
+Creating instance of bean '(inner bean)#2bbf180e'
+Finished creating instance of bean '(inner bean)#2bbf180e'
+Creating instance of bean 'perfLogger'
+Finished creating instance of bean 'perfLogger'
+Creating instance of bean '(inner bean)#778d1062'
+Finished creating instance of bean '(inner bean)#778d1062'
+Finished creating instance of bean '(inner bean)#25d250c6'
+Eagerly caching bean 'org.springframework.aop.aspectj.AspectJPointcutAdvisor#0' to allow for resolving potential circular references
+Finished creating instance of bean 'org.springframework.aop.aspectj.AspectJPointcutAdvisor#0'
+Creating shared instance of singleton bean 'org.springframework.aop.aspectj.AspectJPointcutAdvisor#1'
+Creating instance of bean 'org.springframework.aop.aspectj.AspectJPointcutAdvisor#1'
+Creating instance of bean '(inner bean)#6771beb3'
+Creating instance of bean '(inner bean)#2b71e916'
+Finished creating instance of bean '(inner bean)#2b71e916'
+Creating instance of bean 'eventLogger'
+Finished creating instance of bean 'eventLogger'
+Creating instance of bean '(inner bean)#36fc695d'
+Finished creating instance of bean '(inner bean)#36fc695d'
+Finished creating instance of bean '(inner bean)#6771beb3'
+Eagerly caching bean 'org.springframework.aop.aspectj.AspectJPointcutAdvisor#1' to allow for resolving potential circular references
+Finished creating instance of bean 'org.springframework.aop.aspectj.AspectJPointcutAdvisor#1'
+Registered injected element on class [fr.cap.wikimnv.contribution.service.impl.ServiceTagImpl]: AutowiredFieldElement for fr.cap.wikimnv.global.service.ICRUD fr.cap.wikimnv.contribution.service.impl.ServiceTagImpl.sCrud
+Eagerly caching bean 'sTag' to allow for resolving potential circular references
+Processing injected element of bean 'sTag': AutowiredFieldElement for fr.cap.wikimnv.global.service.ICRUD fr.cap.wikimnv.contribution.service.impl.ServiceTagImpl.sCrud
+Creating shared instance of singleton bean 'serviceCrud'
+Creating instance of bean 'serviceCrud'
+Returning cached instance of singleton bean 'org.springframework.aop.aspectj.AspectJPointcutAdvisor#0'
+Returning cached instance of singleton bean 'org.springframework.aop.aspectj.AspectJPointcutAdvisor#1'
+Eagerly caching bean 'serviceCrud' to allow for resolving potential circular references
+Returning cached instance of singleton bean 'org.springframework.aop.aspectj.AspectJPointcutAdvisor#0'
+Returning cached instance of singleton bean 'org.springframework.aop.aspectj.AspectJPointcutAdvisor#1'
+Returning cached instance of singleton bean 'org.springframework.aop.aspectj.AspectJPointcutAdvisor#0'
+Returning cached instance of singleton bean 'org.springframework.aop.aspectj.AspectJPointcutAdvisor#1'
+Finished creating instance of bean 'serviceCrud'
+Autowiring by type from bean name 'sTag' to bean named 'serviceCrud'
+Returning cached instance of singleton bean 'org.springframework.aop.aspectj.AspectJPointcutAdvisor#0'
+Returning cached instance of singleton bean 'org.springframework.aop.aspectj.AspectJPointcutAdvisor#1'
+Returning cached instance of singleton bean 'org.springframework.aop.aspectj.AspectJPointcutAdvisor#0'
+Returning cached instance of singleton bean 'org.springframework.aop.aspectj.AspectJPointcutAdvisor#1'
+Creating implicit proxy for bean 'sTag' with 0 common interceptors and 3 specific interceptors
+Creating JDK dynamic proxy: target source is SingletonTargetSource for target object [fr.cap.wikimnv.contribution.service.impl.ServiceTagImpl@2de23121]
+Finished creating instance of bean 'sTag'
+Returning cached instance of singleton bean 'org.springframework.context.annotation.internalConfigurationAnnotationProcessor'
+Returning cached instance of singleton bean 'org.springframework.context.annotation.internalAutowiredAnnotationProcessor'
+Returning cached instance of singleton bean 'org.springframework.context.annotation.internalRequiredAnnotationProcessor'
+Returning cached instance of singleton bean 'org.springframework.context.annotation.internalCommonAnnotationProcessor'
+Creating shared instance of singleton bean 'org.springframework.context.event.internalEventListenerProcessor'
+Creating instance of bean 'org.springframework.context.event.internalEventListenerProcessor'
+Returning cached instance of singleton bean 'org.springframework.aop.aspectj.AspectJPointcutAdvisor#0'
+Returning cached instance of singleton bean 'org.springframework.aop.aspectj.AspectJPointcutAdvisor#1'
+Eagerly caching bean 'org.springframework.context.event.internalEventListenerProcessor' to allow for resolving potential circular references
+Returning cached instance of singleton bean 'org.springframework.aop.aspectj.AspectJPointcutAdvisor#0'
+Returning cached instance of singleton bean 'org.springframework.aop.aspectj.AspectJPointcutAdvisor#1'
+Returning cached instance of singleton bean 'org.springframework.aop.aspectj.AspectJPointcutAdvisor#0'
+Returning cached instance of singleton bean 'org.springframework.aop.aspectj.AspectJPointcutAdvisor#1'
+Finished creating instance of bean 'org.springframework.context.event.internalEventListenerProcessor'
+Creating shared instance of singleton bean 'org.springframework.context.event.internalEventListenerFactory'
+Creating instance of bean 'org.springframework.context.event.internalEventListenerFactory'
+Returning cached instance of singleton bean 'org.springframework.aop.aspectj.AspectJPointcutAdvisor#0'
+Returning cached instance of singleton bean 'org.springframework.aop.aspectj.AspectJPointcutAdvisor#1'
+Eagerly caching bean 'org.springframework.context.event.internalEventListenerFactory' to allow for resolving potential circular references
+Returning cached instance of singleton bean 'org.springframework.aop.aspectj.AspectJPointcutAdvisor#0'
+Returning cached instance of singleton bean 'org.springframework.aop.aspectj.AspectJPointcutAdvisor#1'
+Returning cached instance of singleton bean 'org.springframework.aop.aspectj.AspectJPointcutAdvisor#0'
+Returning cached instance of singleton bean 'org.springframework.aop.aspectj.AspectJPointcutAdvisor#1'
+Finished creating instance of bean 'org.springframework.context.event.internalEventListenerFactory'
+Returning cached instance of singleton bean 'serviceCrud'
+Creating shared instance of singleton bean 'sArticle'
+Creating instance of bean 'sArticle'
+Returning cached instance of singleton bean 'org.springframework.aop.aspectj.AspectJPointcutAdvisor#0'
+Returning cached instance of singleton bean 'org.springframework.aop.aspectj.AspectJPointcutAdvisor#1'
+Eagerly caching bean 'sArticle' to allow for resolving potential circular references
+Returning cached instance of singleton bean 'serviceCrud'
+Returning cached instance of singleton bean 'org.springframework.aop.aspectj.AspectJPointcutAdvisor#0'
+Returning cached instance of singleton bean 'org.springframework.aop.aspectj.AspectJPointcutAdvisor#1'
+Returning cached instance of singleton bean 'org.springframework.aop.aspectj.AspectJPointcutAdvisor#0'
+Returning cached instance of singleton bean 'org.springframework.aop.aspectj.AspectJPointcutAdvisor#1'
+Creating implicit proxy for bean 'sArticle' with 0 common interceptors and 3 specific interceptors
+Creating JDK dynamic proxy: target source is SingletonTargetSource for target object [fr.cap.wikimnv.contribution.service.impl.ServiceArticleImpl@1190200a]
+Finished creating instance of bean 'sArticle'
+Creating shared instance of singleton bean 'sLogger'
+Creating instance of bean 'sLogger'
+Returning cached instance of singleton bean 'org.springframework.aop.aspectj.AspectJPointcutAdvisor#0'
+Returning cached instance of singleton bean 'org.springframework.aop.aspectj.AspectJPointcutAdvisor#1'
+Eagerly caching bean 'sLogger' to allow for resolving potential circular references
+Finished creating instance of bean 'sLogger'
+Returning cached instance of singleton bean 'org.springframework.aop.config.internalAutoProxyCreator'
+Returning cached instance of singleton bean 'org.springframework.aop.aspectj.AspectJPointcutAdvisor#0'
+Returning cached instance of singleton bean 'org.springframework.aop.aspectj.AspectJPointcutAdvisor#1'
+Returning cached instance of singleton bean 'org.springframework.context.annotation.ConfigurationClassPostProcessor.importAwareProcessor'
+Returning cached instance of singleton bean 'org.springframework.context.annotation.ConfigurationClassPostProcessor.enhancedConfigurationProcessor'
+Returning cached instance of singleton bean 'org.springframework.context.event.internalEventListenerFactory'
+Returning cached instance of singleton bean 'sTag'
+Returning cached instance of singleton bean 'sArticle'
+Unable to locate LifecycleProcessor with name 'lifecycleProcessor': using default [org.springframework.context.support.DefaultLifecycleProcessor@76ed1b7c]
+Returning cached instance of singleton bean 'lifecycleProcessor'
+Searching for key 'spring.liveBeansView.mbeanDomain' in [systemProperties]
+Searching for key 'spring.liveBeansView.mbeanDomain' in [systemEnvironment]
+Could not find key 'spring.liveBeansView.mbeanDomain' in any property source. Returning [null]
+Returning cached instance of singleton bean 'sTag'
+Returning cached instance of singleton bean 'sLogger'
+1440575143381 - Start Set fr.cap.wikimnv.contribution.service.IServiceTag.rechercheTextuelle(String)
+Erreur non traitée : Set fr.cap.wikimnv.contribution.service.IServiceTag.rechercheTextuelle(String) - java.lang.Object cannot be cast to java.util.Set
+1440575184539 - Start Set fr.cap.wikimnv.contribution.service.IServiceTag.rechercheTextuelle(String)
+Erreur non traitée : Set fr.cap.wikimnv.contribution.service.IServiceTag.rechercheTextuelle(String) - java.lang.Object cannot be cast to java.util.Set
