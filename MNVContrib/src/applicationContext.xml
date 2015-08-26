@@ -12,8 +12,12 @@
      
 	<context:component-scan base-package="fr.cap.wikimnv.contribution" />
 
-    <bean id="serviceCrud" class="fr.cap.wikimnv.global.service.impl.CrudImplBouchon"></bean>       
+    <bean id="serviceCrud" class="fr.cap.wikimnv.global.service.impl.CrudImplBouchon"></bean>      
+     
 	<bean id="sArticle" class="fr.cap.wikimnv.contribution.service.impl.ServiceArticleImpl">
+		<property name="sCrud" ref="serviceCrud"></property>
+	</bean>
+	<bean id="sTemplate" class="fr.cap.wikimnv.contribution.service.impl.ServiceTemplateImpl">
 		<property name="sCrud" ref="serviceCrud"></property>
 	</bean>
 	
