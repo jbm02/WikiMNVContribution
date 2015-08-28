@@ -1,7 +1,7 @@
 <project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
 	xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
 	<modelVersion>4.0.0</modelVersion>
-	<groupId>MNVContrib</groupId>
+	<groupId>fr.cap.wikimnv</groupId>
 	<artifactId>MNVContrib</artifactId>
 	<version>0.0.1-SNAPSHOT</version>
 	<properties>
@@ -11,7 +11,22 @@
 		<cxf.version>3.1.2</cxf.version>
 	</properties>
 	<build>
-		<sourceDirectory>src</sourceDirectory>
+		<sourceDirectory>C:\Users\JB\git\WikiMNVContribution\MNVContrib\src\main\java</sourceDirectory>
+		<scriptSourceDirectory>C:\Users\JB\git\WikiMNVContribution\MNVContrib\src\main\scripts</scriptSourceDirectory>
+		<testSourceDirectory>C:\Users\JB\git\WikiMNVContribution\MNVContrib\src\test\java</testSourceDirectory>
+		<outputDirectory>C:\Users\JB\git\WikiMNVContribution\MNVContrib\target\classes</outputDirectory>
+		<testOutputDirectory>C:\Users\JB\git\WikiMNVContribution\MNVContrib\target\test-classes</testOutputDirectory>
+		<resources>
+			<resource>
+				<directory>C:\Users\JB\git\WikiMNVContribution\MNVContrib\src\main\resources</directory>
+			</resource>
+		</resources>
+		<testResources>
+			<testResource>
+				<directory>C:\Users\JB\git\WikiMNVContribution\MNVContrib\src\test\resources</directory>
+			</testResource>
+		</testResources>
+		<directory>C:\Users\JB\git\WikiMNVContribution\MNVContrib\target</directory>
 		<plugins>
 			<plugin>
 				<artifactId>maven-compiler-plugin</artifactId>
@@ -72,4 +87,5 @@
 		</dependency>
 
 	</dependencies>
+	<packaging>war</packaging>
 </project>
