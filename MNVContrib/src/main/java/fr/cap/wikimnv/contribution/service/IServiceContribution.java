@@ -1,11 +1,9 @@
 package fr.cap.wikimnv.contribution.service;
 
-import fr.cap.wikimnv.exception.MNVException;
+import fr.cap.wikimnv.core.commons.exception.MNVException;
+
 
 public interface IServiceContribution {
-	IServiceArticle getGArticle() throws MNVException;
-
-	IServiceTag getGTag() throws MNVException;
-
-	IServiceTemplate getTemplate() throws MNVException;
+	Object sauver(Object article)throws MNVException;
+	boolean demandePublication(Object article) throws MNVException;
 }
